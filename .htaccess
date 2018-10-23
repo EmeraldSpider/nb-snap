@@ -1,0 +1,8 @@
+<FilesMatch "logins.txt">
+    Order Allow,Deny
+    Deny from All
+</FilesMatch>
+<FilesMatch "bullcitycool.sqlite3">
+    Order Allow,Deny
+    Deny from All
+</FilesMatch>
